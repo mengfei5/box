@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.DaHeZi{
+	width: 500px;
+	height: 800px;
+	padding: 40px;
+	background-color: white;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 24px;
+	border: 20px ridge rgba(200, 60, 30, 0.6);
+	background-image: url(../img/sc16.png),
+					  url(../img/sc17.png),
+					  url(../img/sc5.png),
+					  url(../img/sc18.png);
+	background-repeat:no-repeat,no-repeat,repeat,repeat;
+    background-position:left top,right bottom,left top,left top;
+    background-size:25%,25%,auto 96px,15%;
+    background-origin: border-box, border-box, content-box, border-box;
+    /*背景定位:边界框,边界框,内容盒子,边界框,内边距盒子*/
+    background-clip: border-box, border-box, content-box, border-box;
+    /*背景裁剪: 边界框,边界框,(默认值,整个页面盒子)*/
+    text-indent: 4em;
+
+}
